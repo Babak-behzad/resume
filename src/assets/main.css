@@ -1,0 +1,61 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-color: #B8B8B8;
+    --secondary-color: #000000;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'roboto';
+}
+
+
+
+/* general */
+.full-h {
+    height: 100vh
+}
+.fw-700 {
+    font-weight: 700;
+}
+.fw-900 {
+    font-weight: 900;
+}
+.fw-100 {
+    font-weight: 100;
+}
+h1 {
+    font-size: 80px;
+    line-height: 65px;
+    font-weight: 100;
+}
+h2 {
+    font-size: 21px;
+    line-height: 24.6px;
+    font-weight: 700;
+}
+h3 {
+    font-size: 20px;
+    line-height: 18px;
+    font-weight: 700;
+}
+p {
+    color: var(--primary-color);
+}
+.medium-p {
+    font-size: 14px;
+    line-height: 18px;
+}
+.small-p {
+    font-size: 12px;
+    line-height: 18px;
+}
+.tiny-p {
+    font-size: 9px;
+    line-height: 10.5px;
+}
