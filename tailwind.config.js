@@ -10,7 +10,9 @@ module.exports = {
     },
     extend: {
       colors: {
-        'interests-color' : '#F8F8F8'
+        'interests-color' : '#F8F8F8',
+        primary: '#B8B8B8',
+        secondary: '#000000'
       },
       screens: {
         'md' : '770px',

@@ -4,17 +4,17 @@
     </div>
     <div class="right-bg basis-1/2 absolute right-0 w-1/2 bottom-0 top-0 -z-50" >
     </div>
-    <div class="container flex">
-      <section class=" basis-1/2 left-col">
+    <div class="container grid grid-cols-2 gap-16">
+      <section class="pt-10">
         <CallAndEmail/>
         <Certificate/>
         <Reference/>
+        <Experience/>
         <Interests/>
       </section>
-      <section class=" basis-1/2 pl-12">
+      <section class="pt-10">
         <Title/>
         <Skills/>
-        <Experience/>
         <Education/>
       </section>
     </div>

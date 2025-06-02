@@ -1,5 +1,5 @@
 <template>
-    <section class="certificate">
+    <section class="mt-20">
         <img src="@/assets/images/cup.png" alt="cup image">
         <h2 class="mt-3 mb-5">C E R T I F I C A T E</h2>
         <p class="medium-p mb-1">2022</p>
@@ -11,9 +11,3 @@
         <p class="medium-p">Quality Assurance</p>
     </section>
 </template>
-
-<style scoped>
-.certificate {
-  margin-top: 135px;
-}
-</style>

@@ -12,6 +12,8 @@
 }
 body {
     font-family: 'roboto';
+    print-color-adjust: exact;
+    /* @apply print:break-after-page;    */
 }
 
 
@@ -43,9 +45,6 @@ h3 {
     font-size: 20px;
     line-height: 18px;
     font-weight: 700;
-}
-p {
-    color: var(--primary-color);
 }
 .medium-p {
     font-size: 14px;
