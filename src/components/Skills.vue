@@ -51,10 +51,6 @@ const frameWorks: Skill[] = [
         score: 8
     },
     {
-        title: 'NEXT',
-        score: 6
-    },
-        {
         title: 'REACT',
         score: 6
     },
@@ -63,8 +59,12 @@ const frameWorks: Skill[] = [
         score: 8
     },
     {
-        title: '.NET',
+        title: 'NEXT',
         score: 6
+    },
+    {
+        title: '.NET',
+        score: 5
     },
 
 ]
@@ -111,11 +111,11 @@ const tools: Skill[] = [
     },
     {
         title: 'FIGMA',
-        score: 7
+        score: 6
     },
     {
         title: 'VITEST',
-        score: 8
+        score: 7
     },
     {
         title: 'STORYBOOK',
